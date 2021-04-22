@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  padding: 20px 20px 30px 20px;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 75%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.github-link {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  -webkit-border-radius: 32;
+  -moz-border-radius: 32;
+  border-radius: 32px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4ECCA3;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #50b0eb;
+  background-image: -webkit-linear-gradient(top, #50b0eb, #1971ab);
+  background-image: -moz-linear-gradient(top, #50b0eb, #1971ab);
+  background-image: -ms-linear-gradient(top, #50b0eb, #1971ab);
+  background-image: -o-linear-gradient(top, #50b0eb, #1971ab);
+  background-image: linear-gradient(to bottom, #50b0eb, #1971ab);
+  text-decoration: none;
+}
