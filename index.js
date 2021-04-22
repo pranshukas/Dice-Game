@@ -8,12 +8,18 @@ function myFunction() {
     document.querySelector(".img2").setAttribute("src", randomImageSource2);
 
     if (randomNumber1 > randomNumber2) {
-        document.querySelector("h1").innerHTML = "🎊🚩Player 1 Wins!"
+        document.querySelector("h1").innerHTML = "🎊🚩" + firstPlayer + " Wins!"
     }
     else if (randomNumber2 > randomNumber1) {
-        document.querySelector("h1").innerHTML = "Player 2 Wins! 🎊🚩";
+        document.querySelector("h1").innerHTML = secondPlayer + " Wins! 🎊🚩";
     }
     else {
         document.querySelector("h1").innerHTML = "Oh! It's a Draw...";
     }
 }
+
+var firstPlayer = prompt("Enter Name of First Player");
+var secondPlayer = prompt("Enter Name of Second Player");
+var list = document.querySelectorAll("p");
+list[0].innerHTML = firstPlayer;
+list[1].innerHTML = secondPlayer;
