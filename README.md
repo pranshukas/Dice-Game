@@ -1,5 +1,7 @@
 # 🎲 Dice Game 
-Simple Dice Game implemented using HTML, CSS and JavaScript. It randomly generates Numbers between 1 and 6 for two Players. The Player with more Number on the Dice wins. In case of Equal number Game gets Draw. 
+Simple Dice Game implemented using HTML, CSS and JavaScript. Once the user clicks on Roll the Dice button, the dice will get thrown randomly, so that player 1 and player 2 both have their own dice values. Dice game will then announce a winner depending on whose dice value was higher, i.e, the Player with more Number on the Dice wins. In case of Equal number Game gets Draw. 
+
+
 
 ## Deployment
 
