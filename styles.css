@@ -1,3 +1,4 @@
+/*Container Tag */
 .container {
   width: 100%;
   margin: auto;
@@ -59,6 +60,7 @@ footer {
   text-decoration: none;
 }
 
+/* Button Styling  */
 .btn:hover {
   background: #50b0eb;
   background-image: -webkit-linear-gradient(top, #50b0eb, #1971ab);
