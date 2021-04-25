@@ -1,3 +1,8 @@
+/* Body Section  */
+body {
+  background-color: #393E46;
+}
+
 /*Container Tag */
 .container {
   width: 100%;
@@ -6,16 +11,7 @@
   padding-top: 40px;
 }
 
-.dice {
-  text-align: center;
-  display: inline-block;
-  padding: 20px 20px 30px 20px;
-
-}
-
-body {
-  background-color: #393E46;
-}
+/* Header and Paragraph Elements  */
 
 h1 {
   margin: 30px;
@@ -31,9 +27,19 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
+/* Dice Class  */
+.dice {
+  text-align: center;
+  display: inline-block;
+  padding: 20px 20px 30px 20px;
+
+}
+
 img {
   width: 75%;
 }
+
+/* Footer Section */
 
 footer {
   margin-top: 5%;
@@ -48,6 +54,9 @@ footer {
   color: white;
 }
 
+
+/* Button Styling  */
+
 .btn {
   -webkit-border-radius: 32;
   -moz-border-radius: 32;
@@ -60,7 +69,6 @@ footer {
   text-decoration: none;
 }
 
-/* Button Styling  */
 .btn:hover {
   background: #50b0eb;
   background-image: -webkit-linear-gradient(top, #50b0eb, #1971ab);
